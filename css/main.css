@@ -1,0 +1,57 @@
+#banner {
+	background-color: black;
+	color: white;
+	position: static;
+	height: 150px;
+	text-align: center;
+}
+
+#banner h1{
+	display: inline-block;
+	font-family: 'Fjalla One', sans-serif;
+	line-height: 46px;
+	font-size: 43px;
+	margin: auto;
+	padding-top: 50px;
+}
+
+#banner p {
+	float: left;
+	display: inline-block;
+	font-family: 'Cantarell', sans-serif;
+	font-size: 20px;
+    line-height: 23px;
+    margin: auto;
+    padding: 60px 0 0 15px;
+}
+
+#imgcontainer {
+	float: right;
+	overflow: hidden;
+	border-radius: 50%;
+	display: inline-block;
+	height: 150px;
+	width: 150px;
+	position: relative;
+}
+
+#imgcontainer img {
+	height: 100%;
+}
+
+#menubar {
+	visibility: visible;
+	list-style-type: none;
+	margin-left: -200px;
+	position: absolute;
+	z-index: -1;
+}
+
+#teamphotos img {
+	height: 400px;
+}
+
+#footer p {
+	display: inline-block;
+
+}
