@@ -1,18 +1,29 @@
+body {
+	color: #BFBFBF;
+	background-color: #404040;
+}
+
 #banner {
-	background-color: black;
-	color: white;
+	background-color: #BE1E2D;
 	position: static;
 	height: 150px;
 	text-align: center;
 }
 
-#banner h1{
+#bannertext {
 	display: inline-block;
 	font-family: 'Fjalla One', sans-serif;
+	margin: auto -50px auto 50px;
+}
+
+#bannertext h1 {
 	line-height: 46px;
 	font-size: 43px;
-	margin: auto;
-	padding-top: 50px;
+}
+
+#bannertext h2 {
+	line-height: 23px;
+	font-size: 21px;
 }
 
 #banner p {
@@ -31,12 +42,14 @@
 	border-radius: 50%;
 	display: inline-block;
 	height: 150px;
-	width: 150px;
+	width: 200px;
 	position: relative;
+	margin-right: 30px;
 }
 
 #imgcontainer img {
-	height: 100%;
+	width: 70%;
+	padding-top: 25px;
 }
 
 #menubar {
@@ -47,11 +60,39 @@
 	z-index: -1;
 }
 
-#teamphotos img {
-	height: 400px;
+#introtext {
+	font-family: 'Cantarell', sans-serif;
+	font-size: 20px;
+    line-height: 23px;
+    margin: 10px auto;
+    text-align: center;
+    width: 80%;
 }
 
-#footer p {
-	display: inline-block;
+#teamphotos {
+	position: relative;
+	height: 550px;
+	width: 70%;
+	float: left;
+}
 
+#teamphotos img {
+	position: absolute;
+	top: 0; 
+	z-index: 8;
+	width: 100%;
+}
+
+#teamphotos img.active {
+	z-index: 10;
+}
+
+#teamphotos img.last-active {
+	z-index: 9;
+}
+
+#socialmedia {
+	display: inline-block;
+	width: 25%;
+	float: right;
 }
