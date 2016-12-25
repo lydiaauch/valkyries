@@ -16,6 +16,26 @@ function slideSwitch() {
         })
 }
 
-$(function() {
-	setInterval("slideSwitch()", 5000); 
+$(document).ready(function() {
+    $(function() {
+        setInterval("slideSwitch()", 5000); 
+    });
+
+    $("#menu_button").click(function() {
+        $("#menubar").toggle("slow");
+    });
+
+    $("#menu_button").hover(function() {
+        $(this).css("color", "#BE1E2D");
+        }, function() {
+        $(this).css("color", "#BFBFBF");
+    });
+
+    $("#menubar ul li").hover(function() {
+        $(this).css("color", "#BE1E2D");
+        }, function() {
+        $(this).css("color", "#BFBFBF");
+    })
 });
+
+
