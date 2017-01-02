@@ -31,7 +31,7 @@ $(document).ready(function() {
         $(this).css("color", "#BFBFBF");
     });
 
-    $("#menubar ul li").hover(function() {
+    $("#menubar ul li a").hover(function() {
         $(this).css("color", "#BE1E2D");
         }, function() {
         $(this).css("color", "#BFBFBF");
