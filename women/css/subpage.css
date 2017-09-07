@@ -4,7 +4,7 @@
 	justify-content: center;
 	align-items: center;
 	height: 700px;
-	width: 99%;
+	width: 95%;
 	background: rgba(64,64,64, 0.9);
 	border-radius: 5px;
 	margin: 30px auto;
@@ -14,7 +14,7 @@
 }
 
 .innertext {
-	height: 500px;
+	height: 80%;
 	width: 50%;
 	margin: auto auto;
 	background-color: rgba(191,191,191, 0.75);
